@@ -1,0 +1,25 @@
+
+;; ----- smex-history -----
+(
+ cider-jack-in
+ package-install
+ package-list-packages
+ cd
+ 5x5
+ arp
+ dbx
+)
+
+;; ----- smex-data -----
+(
+ (cider-jack-in . 5)
+ (package-install . 4)
+ (package-list-packages . 1)
+ (outline-show-subtree . 1)
+ (neotree . 1)
+ (cider-drink-a-sip . 1)
+ (paredit-forward-slurp-sexp . 3)
+ (paredit-kill . 2)
+ (live-paredit-forward-kill-sexp . 1)
+ (paredit-copy-as-kill . 2)
+)

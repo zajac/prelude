@@ -1,0 +1,77 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ (#("/Users/jetzajac/Projects/on-air/diff/src/" 25 31 (face flx-highlight-face) 32 37 (face flx-highlight-face)) . "diff/")
+ (#("/Users/jetzajac/Projects/on-air/diff/" 25 31 (face flx-highlight-face) 32 37 (face flx-highlight-face)) . "src/")
+ ("/Users/jetzajac/.live-packs/" . "jetzajac-pack/")
+ ("/Users/jetzajac/Projects/barfer/src/" . "barfer/")
+ ("/Users/jetzajac/Projects/" . #("on-air/" 0 6 (face flx-highlight-face)))
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jetzajac/Projects/datascript/"
+ "/Users/jetzajac/Projects/on-air/diff/"
+ #("/Users/jetzajac/Projects/on-air/diff/src/diff/" 25 31 (face flx-highlight-face) 32 37 (face flx-highlight-face))
+ #("/Users/jetzajac/Projects/datascript/src/datascript/" 36 38 (face flx-highlight-face) 40 51 (face flx-highlight-face))
+ "/Users/jetzajac/.live-packs/jetzajac-pack/"
+ "/Users/jetzajac/"
+ "/Users/jetzajac/Projects/barfer/"
+ "/Users/jetzajac/Projects/on-air/frontend/"
+ "/Users/jetzajac/Projects/barfer/src/barfer/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ #("project.clj" 0 3 (face flx-highlight-face))
+ #("core.cljc" 0 2 (face flx-highlight-face))
+ "init.el"
+ "plan.clj"
+ ".emacs-live.el"
+ "core.cljs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jetzajac/Projects/datascript/" (22387 38807 0 0) "test_node.js" "test/" "target/" "src/" "resources/" "release-js/" "README.md" "project.clj" "LICENSE" "dev.html" "dev-resources/" "dev/" "circle.yml" "CHANGELOG.md" "bench/" ".travis.yml" ".nrepl-port" ".gitignore" ".git/" "../" "./")
+
+ (#("/Users/jetzajac/Projects/on-air/diff/src/diff/" 25 31 (face flx-highlight-face) 32 37 (face flx-highlight-face)) (22297 4020 0 0) "utils.cljc" "core.cljc" "../" "./")
+
+ (#("/Users/jetzajac/Projects/on-air/diff/src/" 25 31 (face flx-highlight-face) 32 37 (face flx-highlight-face)) (22120 13592 0 0) "diff/" "../" "./")
+
+ (#("/Users/jetzajac/Projects/on-air/diff/" 25 31 (face flx-highlight-face) 32 37 (face flx-highlight-face)) (22357 27293 0 0) "test/" "target/" "src/" "resources/" "project.clj" "pom.xml" "diff.iml" ".gitignore" ".DS_Store" "../" "./")
+
+ (#("/Users/jetzajac/Projects/on-air/" 25 31 (face flx-highlight-face)) (22386 39550 0 0) "target/" "system/" "src/" "README.md" "project.clj" "out/" "ot/" "on-air.iml~" "on-air.iml" "on-air-resources/" "nrepl/" "model-nova/" "model-impl/" "model/" "manager/" "lib/" "idea-importer/" "gotty/" "frontend.zip" "frontend/" "diff/" "dev-resources/" "dashboard/" "core/" "consul/" "config/" "community/" "cluster/" "bus.log" "bus/" "build.xml" "build.txt" "build/" "bin/" "auth/" ".jps-build-data/" ".idea/" ".gitmodules" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jetzajac/Projects/" (22387 38533 0 0) "webtorrent/" "UpsourceIdeTest/" "upsource.cljs" "upsource-ios/" "untitled2/" "untitled1/" "untitled/" "temp/" "socketIOtest/" "reagent-template/" "reactive-model/" "react-native-test/" "react-blessed/" "re-frame/" "on-air/" "lt-cljs-tutorial/" "LightTableMac.zip" "LightTable/" "jug-clojure-2015-slides/" "jet-cluster/" "javaslang/" "gitlike_vcs/" "functional-composition/" "faster-miniKanren/" "electron-quick-start/" "dst/" "disser.txt" "datascript/" "core.logic.test/" "clj-vcs/" "cityspy/" "circlet/" "barfer/" "atom-master/" "annagreta/" ".DS_Store" "../" "./")
+
+ ("/Users/jetzajac/Projects/datascript/src/datascript/" (22387 38602 0 0) "query_v3.cljc" "query.cljc" "pull_parser.cljc" "pull_api.cljc" "parser.cljc" "lru.cljc" "js.cljs" "impl/" "externs.js" "db.cljc" "core.cljc" "btset.cljc" "arrays.cljc" ".#core.cljc" "../" "./")
+
+ (#("/Users/jetzajac/Projects/datascript/src/" 36 38 (face flx-highlight-face)) (22387 38538 0 0) "deps.cljs" "datascript/" "data_readers.clj" "../" "./")
+
+ ("/Users/jetzajac/" (22378 58467 0 0) "work/" "VMware/" "tmp2/" "tmp/" "test.o" "test.hs" "test.hi" "test" "Snapshots/" "ring-ui-build/" "Public/" "Projects/" "PRIVATE/" "Pictures/" "on-air-image.tar" "Music/" "Movies/" "Library/" "IdeaProjects/" "Go/" "Dropbox (Old)/" "Dropbox/" "Downloads/" "dos/" "Documents/" "Desktop/" "cool-retro-term/" "Applications/" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-UNIT-732-5.0.8" ".zcompdump-UNIT-732-5.0.5" ".zcompdump-UNIT-732 (2)-5.0.5" ".yjp/" ".yandex/" ".vscode/" ".viminfo" ".v8flags.4.5.103.35.jetzajac.json" ".upsource/" ".Trash/" ".tooling/" ".terraform.d/" ".subversion/" ".ssh/" ".spacemacs" ".rnd" ".overtone/" ".oracle_jre_usage/" ".OnAir0/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".m2/" ".local/" ".lobo/" ".live-packs/" ".lein/" ".kube/" ".kotlin-daemon/" ".jmc/" ".jetpass/" ".IntelliJIdea15/" ".IntelliJIdea14/" ".IdeaIC15/" ".IdeaIC14/" ".IdeaData/" ".groovy/" ".gradle/" ".gitconfig" ".ghc/" ".emacs.d.pre-prelude.tar" ".emacs.d.backup/" ".emacs.d/" ".emacs-live.el" ".electron/" ".eclipse/" ".dvdcss/" ".DS_Store" ".dropbox/" ".docker/" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_history" ".babel.json" ".atom/" ".#plan.clj" "../" "./")
+
+ ("/Users/" (22085 56141 0 0) "Shared/" "jetzajac/" "jetbrains/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/jetzajac/Projects/on-air/frontend/" (22378 57810 0 0) "test/" "target/" "src/" "resources/" "public/" "project.clj" "frontend.zip" "frontend.iml" "figwheel_server.log" "devsrc/" "dev-resources/" "assets/" ".repl/" ".nrepl-port" ".gitignore" ".DS_Store" ".#project.clj" "../" "./")
+
+ ("/Users/jetzajac/Projects/barfer/src/barfer/" (22378 55307 0 0) "tree.cljs" "doc.cljs" "core.cljs" "../" "./")
+
+ ("/Users/jetzajac/.live-packs/jetzajac-pack/" (22378 55802 0 0) "README.md" "lib/" "init.el" "info.el" "config/" ".#init.el" "../" "./")
+
+ ("/Users/jetzajac/Projects/barfer/" (22378 55309 0 0) "test/" "target/" "src/" "resources/" "project.clj" "package.json" "node_modules/" "figwheel_server.log" "dev-resources/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jetzajac/Projects/on-air/frontend/src/" (22225 45921 0 0) "re_com/" "ot/" "frontend/" ".DS_Store" "../" "./")
+
+ ("/Users/jetzajac/Projects/on-air/frontend/src/frontend/" (22360 6216 0 0) "window.cljs" "view.cljs" "view/" "validation.cljs" "utils.cljs" "usages.cljs" "throttling.cljs" "themes.cljs" "theme-dialog.cljs" "terminal.cljs" "styles.cljs" "settings.cljs" "safe_delete_dialog.cljs" "runtime_benchmark.cljs" "project.cljs" "object.cljs" "navigation.cljs" "model.cljs" "modal.cljs" "make.cljs" "log.cljs" "log.clj" "localstorage.cljs" "layout.cljs" "keymap.cljs" "init.cljs" "hints.cljs" "handlers.cljs" "global_actions.cljs" "global.cljs" "focus.cljs" "find.cljs" "file_stucture.cljs" "file_chooser.cljs" "execution.cljs" "editor_actions.cljs" "editor/" "doc.cljs" "debug.cljs" "core.cljs" "components.cljs" "completion.cljs" "actions.cljs" ".DS_Store" "../" "./")
+
+ ("/Users/jetzajac/.live-packs/" (22378 51287 0 0) "jetzajac-pack/" "../" "./")
+
+ ("/Users/jetzajac/Projects/barfer/src/" (22377 11838 0 0) "barfer/" "../" "./")
+
+ ("/Users/jetzajac/Projects/clj-vcs/" (22377 9444 0 0) "test/" "src/" "README.md" "project.clj" "LICENSE" "doc/" "CHANGELOG.md" ".gitignore" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

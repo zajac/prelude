@@ -67,7 +67,7 @@
 
 (setq cider-prompt-for-symbol nil) ; try to jump to symbol under cursor without minibuffer prompt
 (setq cider-repl-use-pretty-printing t) ; use pretty print in repl
-(setq cider-prompt-save-file-on-load 'always-save) ; when reloading file just save without prompting
+(setq cider-save-file-on-load  t) ; when reloading file just save without prompting
 (setq cider-font-lock-dynamically '(macro core function var)) ; colorize usages of functions and variables from any namespace
 (setq cider-repl-display-help-banner nil)
 ;;;;;;;;;;;;;;;;
@@ -117,8 +117,6 @@
 
 (setq vc-follow-symlinks t)
 
-(load-theme 'zenburn t)
-
 (if (not (display-graphic-p))
     (progn
       ;; disable current line highlight
@@ -167,9 +165,12 @@
   (dolist (char-regexp alist)
     (set-char-table-range composition-function-table (car char-regexp)
                           `([,(cdr char-regexp) 0 font-shape-gstring]))))
-(setq-default cursor-type 'bar)
 
+(setq-default cursor-type 'box)
 
+(set-face-attribute 'default nil :height 140)
+
+(global-set-key (kbd "C-x C-k") 'cider-repl-clear-buffer)
 
 (global-set-key (kbd "C--") 'undo)
 (global-set-key (kbd "M-c") 'paredit-copy-as-kill)
